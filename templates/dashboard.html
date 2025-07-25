@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v=5">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#" id="back-button" class="btn secondary">Назад</a>
+        <a href="#" id="logout-link" class="btn secondary">Выход</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Панель управления</h1>
+      <div id="main-menu" class="button-group">
+        <button data-target="semi1" class="btn">Полуфинал 1</button>
+        <button data-target="semi2" class="btn">Полуфинал 2</button>
+        <button data-target="final" class="btn">Гранд-финал</button>
+        <button data-target="results" class="btn">Результаты</button>
+        <button data-target="results-final" class="btn">Результаты финала</button>
+      </div>
+    </main>
+    <script src="{{ url_for('static', filename='js/main.js') }}?v=5"></script>
+  </body>
+</html>

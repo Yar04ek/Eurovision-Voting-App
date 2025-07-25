@@ -1,0 +1,38 @@
+{
+  "yarik": {
+    "pw": "pbkdf2:sha256:1000000$OY9414Z0wLm5tWyI$a3d77eb3a8cafb73875f51a32016e491c69533a71ae4d0a32adb54eb80c05303",
+    "admin": true
+  },
+  "1": {
+    "pw": "pbkdf2:sha256:1000000$OFcEIACRAjUDqWni$552311d0bec4f07adfdbd5be45c2cceaff80be050f66f47012efb44e47c008e0",
+    "admin": false
+  },
+  "yarosalv": {
+    "pw": "pbkdf2:sha256:1000000$Qq1BdHXGAEcEp9Ag$5792f1bf4aadf4fa9241c8ec80e20a1b4e4704dcaa01187ffaa50d7acd239b63",
+    "admin": true
+  },
+  "yaroslav": {
+    "pw": "pbkdf2:sha256:1000000$ZTM8QuXsY6f7ULlg$c54b44da5398685175dc04f7745273ee938ed711c8fcb550325adc59f3b9980c",
+    "admin": false
+  },
+  "ovceev": {
+    "pw": "pbkdf2:sha256:1000000$BwSqkBIOssNf3hMS$ce81660d1d04ecdbe10656bcf267b0e8c1795d3bb517f078177b865bcaf6d1ff",
+    "admin": false
+  },
+  "weoooy": {
+    "pw": "pbkdf2:sha256:1000000$p9DmIb4RzY4oDln2$b3ca60854294bd17762980702becc676e235e08cc68b195f4609fc52efab3e32",
+    "admin": false
+  },
+  "gribowski": {
+    "pw": "pbkdf2:sha256:1000000$Ft8Pwfw1B0U3hxEv$ec9f24640f27c4f3654dd106c5f1f03c56344f64b2b5a95bd00698f821422f45",
+    "admin": false
+  },
+  "тонюшка": {
+    "pw": "pbkdf2:sha256:1000000$9HrOB40M608vmMuo$c71fd6001bcf45ae1d3cb4ae3db1c41ab1bbe0698d654496d394661fb23328da",
+    "admin": false
+  },
+  "anastasia": {
+    "pw": "pbkdf2:sha256:1000000$pIPnZOyQ1Pm52gmF$f857a5d2525f4dee6053aae69498dc683b25ac2a8b6592071484e60c7c12b1b1",
+    "admin": false
+  }
+}

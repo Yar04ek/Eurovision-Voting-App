@@ -1,0 +1,456 @@
+{
+  "1": {},
+  "yarosalv": {},
+  "yaroslav": {
+    "1": {
+      "score": 8,
+      "final": true
+    },
+    "4": {
+      "final": true,
+      "score": 12
+    },
+    "2": {
+      "score": 7
+    },
+    "3": {
+      "score": 7
+    },
+    "6": {
+      "final": true,
+      "score": 12
+    },
+    "5": {
+      "score": 3
+    },
+    "7": {
+      "score": 4
+    },
+    "8": {
+      "final": true,
+      "score": 10
+    },
+    "9": {
+      "score": 10,
+      "final": true
+    },
+    "10": {
+      "score": 9,
+      "final": true
+    },
+    "11": {
+      "score": 12,
+      "final": true
+    },
+    "12": {
+      "score": 11,
+      "final": true
+    },
+    "13": {
+      "score": 7,
+      "final": false
+    },
+    "14": {
+      "score": 11,
+      "final": true
+    },
+    "15": {
+      "score": 10,
+      "final": true
+    },
+    "21": {
+      "score": 3
+    },
+    "22": {
+      "score": 5
+    },
+    "23": {
+      "score": 12,
+      "final": true
+    },
+    "24": {
+      "score": 12,
+      "final": true
+    },
+    "25": {
+      "score": 6
+    },
+    "26": {
+      "score": 3
+    },
+    "27": {
+      "score": 8,
+      "final": true
+    },
+    "28": {
+      "score": 9,
+      "final": true
+    },
+    "29": {
+      "score": 10,
+      "final": true
+    },
+    "30": {
+      "score": 7
+    },
+    "31": {
+      "score": 9
+    },
+    "32": {
+      "score": 5
+    },
+    "33": {
+      "score": 5
+    },
+    "34": {
+      "score": 5
+    },
+    "35": {
+      "score": 10,
+      "final": true
+    },
+    "36": {
+      "score": 10,
+      "final": true
+    }
+  },
+  "ovceev": {},
+  "weoooy": {
+    "1": {
+      "score": 5
+    },
+    "2": {
+      "score": 5
+    },
+    "3": {
+      "score": 3
+    },
+    "4": {
+      "final": true,
+      "score": 12
+    },
+    "5": {
+      "score": 4
+    },
+    "6": {
+      "score": 11,
+      "final": true
+    },
+    "7": {
+      "score": 7
+    },
+    "8": {
+      "score": 10,
+      "final": true
+    },
+    "9": {
+      "score": 10,
+      "final": true
+    },
+    "10": {
+      "score": 8,
+      "final": true
+    },
+    "11": {
+      "score": 6,
+      "final": true
+    },
+    "12": {
+      "score": 9,
+      "final": true
+    },
+    "13": {
+      "score": 8,
+      "final": true
+    },
+    "14": {
+      "score": 7,
+      "final": true
+    },
+    "15": {
+      "score": 7,
+      "final": true
+    },
+    "25": {
+      "score": 12,
+      "final": true
+    },
+    "21": {
+      "score": 6
+    },
+    "22": {
+      "score": 4
+    },
+    "23": {
+      "score": 5
+    },
+    "24": {
+      "score": 7,
+      "final": true
+    },
+    "26": {
+      "score": 11,
+      "final": true
+    },
+    "27": {
+      "score": 8,
+      "final": true
+    },
+    "28": {
+      "score": 7,
+      "final": true
+    },
+    "29": {
+      "score": 6,
+      "final": true
+    },
+    "30": {
+      "score": 8,
+      "final": true
+    },
+    "31": {
+      "score": 5
+    },
+    "32": {
+      "score": 11,
+      "final": true
+    },
+    "33": {
+      "score": 6
+    },
+    "34": {
+      "score": 9,
+      "final": true
+    },
+    "35": {
+      "score": 10,
+      "final": true
+    }
+  },
+  "gribowski": {
+    "4": {
+      "final": true,
+      "score": 12
+    },
+    "1": {
+      "score": 6,
+      "final": true
+    },
+    "2": {
+      "score": 4
+    },
+    "3": {
+      "score": 2
+    },
+    "5": {
+      "score": 3
+    },
+    "6": {
+      "final": true,
+      "score": 11
+    },
+    "7": {
+      "score": 5
+    },
+    "8": {
+      "score": 5
+    },
+    "9": {
+      "score": 10,
+      "final": true
+    },
+    "10": {
+      "score": 8,
+      "final": true
+    },
+    "11": {
+      "final": true,
+      "score": 11
+    },
+    "12": {
+      "score": 10,
+      "final": true
+    },
+    "13": {
+      "score": 9,
+      "final": true
+    },
+    "14": {
+      "score": 10,
+      "final": true
+    },
+    "15": {
+      "score": 9,
+      "final": true
+    },
+    "25": {
+      "score": 12,
+      "final": true
+    },
+    "21": {
+      "score": 8,
+      "final": true
+    },
+    "22": {
+      "score": 5
+    },
+    "23": {
+      "score": 6
+    },
+    "24": {
+      "score": 8,
+      "final": true
+    },
+    "26": {
+      "score": 7,
+      "final": true
+    },
+    "27": {
+      "score": 8,
+      "final": false
+    },
+    "28": {
+      "score": 7,
+      "final": false
+    },
+    "29": {
+      "score": 9,
+      "final": false
+    },
+    "30": {
+      "score": 8,
+      "final": true
+    },
+    "31": {
+      "score": 7,
+      "final": false
+    },
+    "32": {
+      "score": 10,
+      "final": true
+    },
+    "33": {
+      "score": 7,
+      "final": true
+    },
+    "36": {
+      "final": true,
+      "score": 10
+    },
+    "34": {
+      "score": 8,
+      "final": true
+    },
+    "35": {
+      "final": true,
+      "score": 8
+    }
+  },
+  "тонюшка": {
+    "1": {
+      "score": 6
+    },
+    "2": {
+      "score": 2
+    },
+    "3": {
+      "score": 4
+    },
+    "4": {
+      "score": 12,
+      "final": true
+    },
+    "5": {
+      "score": 4
+    },
+    "6": {
+      "score": 12,
+      "final": true
+    },
+    "7": {
+      "score": 5
+    },
+    "8": {
+      "score": 6
+    },
+    "9": {
+      "score": 7
+    },
+    "10": {
+      "score": 5
+    },
+    "11": {
+      "score": 8
+    },
+    "12": {
+      "score": 5
+    },
+    "13": {
+      "score": 7
+    },
+    "14": {
+      "score": 9,
+      "final": true
+    },
+    "15": {
+      "score": 6
+    },
+    "25": {
+      "score": 10,
+      "final": true
+    },
+    "21": {
+      "final": true,
+      "score": 9
+    },
+    "22": {
+      "score": 5
+    },
+    "23": {
+      "score": 5
+    },
+    "24": {
+      "score": 5
+    },
+    "26": {
+      "score": 7,
+      "final": true
+    },
+    "27": {
+      "score": 6
+    },
+    "28": {
+      "score": 5
+    },
+    "29": {
+      "score": 9,
+      "final": true
+    },
+    "30": {
+      "score": 8,
+      "final": true
+    },
+    "31": {
+      "score": 6
+    },
+    "34": {
+      "score": 7,
+      "final": true
+    },
+    "33": {
+      "score": 7,
+      "final": true
+    },
+    "35": {
+      "score": 12,
+      "final": true
+    },
+    "32": {
+      "score": 7
+    },
+    "36": {
+      "score": 6
+    }
+  },
+  "anastasia": {}
+}

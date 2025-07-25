@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v=5">
+  </head>
+  <body class="center-layout">
+    <!-- Для страницы регистрации хедер не выводим -->
+    <form id="register-form">
+      <h1>Регистрация</h1>
+      <input name="login" type="text" placeholder="Логин" required>
+      <input name="password" type="password" placeholder="Пароль" required>
+      <button type="submit">Зарегистрироваться</button>
+      <div id="reg-msg" style="color: #f88; margin-top: 8px;"></div>
+      <a href="{{ url_for('index') }}" class="btn secondary">Назад к входу</a>
+    </form>
+    <script src="{{ url_for('static', filename='js/main.js') }}?v=5"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Результаты</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}?v=5">
+  </head>
+  <body>
+    {% include '_header.html' %}
+    <main>
+      <h1>Результаты</h1>
+      <div class="table-wrapper">
+        <table id="results">
+          <thead>
+            <tr>
+              <th>Исполнитель</th><th>Средний балл</th>
+              <th>За финал</th><th>Голосовавшие</th>
+            </tr>
+          </thead>
+          <tbody id="results-body"></tbody>
+        </table>
+      </div>
+    </main>
+    <script src="{{ url_for('static', filename='js/main.js') }}?v=5"></script>
+  </body>
+</html>

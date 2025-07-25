@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Admin</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+{% include "partials/header.html" %}
+
+  <header><h1>Admin Panel</h1><nav>
+    <a href="/logout">Logout</a>
+    <a href="{{ url_for('accounts_page') }}">Users</a>
+  </nav></header>
+  <main>
+    <div id="semi-selector"></div>
+    <section id="admin-semi"><h2>Manage Semi</h2><div id="admin-semi-container"></div></section>
+    <section id="admin-final"><h2>Manage Final</h2><div id="admin-final-container"></div></section>
+  </main>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

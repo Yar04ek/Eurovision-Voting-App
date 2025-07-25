@@ -1,0 +1,44 @@
+<!-- templates/final_page.html -->
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Гранд финал</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v=5">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- Кнопка «Назад» -->
+        <a href="#" id="back-button" class="btn">Назад</a>
+        <!-- Кнопка логаута -->
+        <a href="#" id="logout-link" class="btn">Выход</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Гранд финал</h1>
+
+      <div class="table-wrapper">
+        <!-- вот здесь главное -->
+        <table id="artists-table" data-semi="0">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Исполнитель</th>
+              <th>Оценка</th>
+              <th>Победитель</th>
+              <th>Админ</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <!-- JS сам заполнит -->
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}?v=5"></script>
+  </body>
+</html>

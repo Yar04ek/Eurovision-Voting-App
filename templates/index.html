@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v=5">
+  </head>
+  <body class="center-layout">
+    <!-- Для страницы логина хедер не выводим -->
+    <form id="login-form">
+      <h1>Вход</h1>
+      <input name="login" type="text" placeholder="Логин" required>
+      <input name="password" type="password" placeholder="Пароль" required>
+      <button type="submit">Войти</button>
+      <div id="login-msg" style="color: #f88; margin-top: 8px;"></div>
+      <a href="{{ url_for('register_page') }}" class="btn secondary">Регистрация</a>
+    </form>
+    <script src="{{ url_for('static', filename='js/main.js') }}?v=5"></script>
+  </body>
+</html>

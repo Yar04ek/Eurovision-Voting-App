@@ -1,0 +1,253 @@
+/* ──────────────────────────────────────────────────────────────
+   𝐄𝐔𝐑𝐎 𝟐𝟎𝟐𝟓  —  глам-неон тема v2
+   ─────────────────────────────────────────────────────────── */
+
+/* базовая раскладка и фон */
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  background:url("/static/images/Eurovision_Song_Contest_2025_Logo.jpg") no-repeat center/cover fixed;
+  color:#ffe4ff;
+  display:flex;flex-direction:column;min-height:100vh;
+}
+
+h1,h2,h3{margin:0 0 1.2em;text-align:center}
+a{color:#00e7ff}
+
+/* универсальный центр контейнера (страницы login / register) */
+.center-layout{
+  display:flex;flex-direction:column;justify-content:center;align-items:center;
+  min-height:100%;
+}
+
+/* ─────────── header ─────────── */
+header{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:12px 24px;background:rgba(0,0,0,.7);backdrop-filter:blur(4px);
+}
+header nav{display:flex;gap:14px}
+header nav a{
+  --grad:linear-gradient(45deg,#E91E63,#00BCD4);
+  padding:10px 16px;border-radius:6px;
+  background:var(--grad);color:#fff;font-weight:700;text-decoration:none;
+  transition:opacity .25s,transform .2s;
+}
+header nav a:hover{opacity:.85;transform:translateY(-2px)}
+
+/* ─────────── формы login / register ───────────*/
+form#login-form,form#register-form{
+  width:min(90vw,340px);
+  padding:32px 36px;border-radius:10px;
+  background:rgba(0,0,0,.75);backdrop-filter:blur(4px);
+  box-shadow:0 8px 22px rgba(0,0,0,.55);
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+}
+form input{
+  width:100%;padding:12px 14px;margin-bottom:18px;
+  border:2px solid rgba(255,255,255,.4);border-radius:6px;
+  background:#fafafa;color:#333;font-size:1rem;
+}
+
+/* ─────────── универсальные кнопки ───────────*/
+:root{
+  --grad-main:linear-gradient(45deg,#E91E63,#00BCD4);
+}
+button,.btn{
+  border:none;cursor:pointer;border-radius:8px;
+  background:var(--grad-main);color:#fff;font-weight:600;
+  padding:12px 22px;font-size:1rem;line-height:1;display:inline-flex;align-items:center;justify-content:center;
+  transition:transform .2s,opacity .25s;
+}
+button:hover,.btn:hover{opacity:.9;transform:translateY(-2px)}
+button:active,.btn:active{transform:translateY(0)}
+button[disabled]{opacity:.4;cursor:not-allowed;transform:none}
+
+/* вариант secondary (прозрачный) */
+.btn.secondary{
+  background:rgba(255,255,255,.25)
+}
+.btn.secondary:hover{opacity:.8}
+
+/* ─────────── меню на dashboard ───────────*/
+.button-group{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin-bottom:24px}
+
+/* ─────────── таблицы артистов / результаты ───────────*/
+.table-wrapper{
+  width:100%;max-width:800px;margin:0 auto;
+  background:rgba(0,0,0,.65);backdrop-filter:blur(3px);
+  border-radius:10px;overflow:hidden;
+}
+table{
+  width:100%;border-collapse:collapse;font-size:.97rem
+}
+thead th{
+  background:var(--grad-main);color:#fff;font-weight:700;padding:14px 8px
+}
+tbody td{
+  padding:12px 8px;border-bottom:1px solid rgba(255,255,255,.08)
+}
+tbody tr:nth-child(odd){background:rgba(255,255,255,.04)}
+tbody tr:hover{background:rgba(255,255,255,.07)}
+
+/* номер порядка отдельно, чтобы сузить колонку */
+td.ord{width:56px;text-align:center;font-weight:700;color:#ffd700}
+
+/* select рейтинга */
+select.score-select{
+  background:rgba(255,255,255,.15);
+  color:#fff;border-radius:6px;padding:6px 8px;border:none
+}
+
+/* кнопка “Pass to final” / “Winner” etc. */
+.vote-btn{
+  min-width:140px
+}
+.vote-btn.active{background:#4CAF50}
+
+/* admin-кнопки */
+.toggle-official{background:#ff5722}
+.toggle-official.active{background:#607d8b}
+.move{padding:8px 12px;background:#3f51b5}
+
+/* ─────────── карточки артистов (используется в некоторых секциях) ───────────*/
+.artist-card{
+  display:flex;justify-content:space-between;align-items:center;
+  background:rgba(0,0,0,.55);backdrop-filter:blur(2px);
+  padding:14px 18px;margin-bottom:12px;border-radius:8px
+}
+.artist-name{
+  font-weight:700;font-size:1.05rem;
+  background:var(--grad-main);-webkit-background-clip:text;color:transparent
+}
+.artist-controls{display:flex;gap:10px;align-items:center}
+
+/* ─────────── кнопка «Back» фиксированная ───────────*/
+.back-button{
+  position:fixed;bottom:24px;left:24px;
+  padding:10px 16px;z-index:10
+}
+
+/* ─────────── таблица результатов ───────────*/
+#results td{color:#ffe066}
+#results th{color:#fff}
+
+/* ─────────── адаптив ───────────*/
+@media(max-width:600px){
+  button,.btn{padding:10px 16px;font-size:.9rem}
+  td.ord{width:42px}
+}
+/* ─── читаемость имён артистов ─────────────────────────────── */
+
+/* 1️⃣  в табличных страницах (semi / final)                     */
+td.name{
+  background:rgba(0,0,0,.55);      /* тёмный задник */
+  color:#fff;                      /* белый текст   */
+  font-weight:700;
+  padding:10px 12px;               /* чуть воздуха  */
+  border-radius:6px;
+}
+
+/* 2️⃣  в «карточном» варианте (artist-card)                     */
+.artist-name{
+  background:rgba(0,0,0,.55);      /* был градиент-текст — теперь фон-плашка */
+  color:#fff;
+  padding:8px 12px;
+  border-radius:6px;
+  -webkit-background-clip:border-box; /* убираем прежний трюк с текстом-градиентом */
+}
+/* ---------- читаемые строки артистов ---------- */
+.artist-row td{
+  background: rgba(0,0,0,0.55);       /* тёмный полупрозрачный фон */
+  color:#fff;                         /* белый текст */
+  padding:8px 12px;
+}
+
+/* одинаковый градиент для ВСЕХ «кнопочных» элементов */
+button, a.btn, a.secondary, select {
+  background:linear-gradient(135deg,#ff0099,#00c3ff);
+  border:none; color:#fff;
+  border-radius:6px;
+}
+
+/* выделение активной «WINNER»-кнопки */
+button.vote-btn.active{
+  background:#ffd700;                 /* золотой */
+  color:#333;
+}
+/* ─── Readability overrides for semi / final tables ─── */
+
+/* Все ячейки данных делают тёмными и белым текстом */
+.table-wrapper tbody tr td {
+  background: rgba(0, 0, 0, 0.65) !important;
+  color: #fff !important;
+}
+
+/* Убираем разноцветную чёредуемость, чтобы фон был сплошной */
+.table-wrapper tbody tr:nth-child(odd),
+.table-wrapper tbody tr:nth-child(even) {
+  background: rgba(0, 0, 0, 0.65) !important;
+}
+
+/* Подсветка строки при ховере */
+.table-wrapper tbody tr:hover td {
+  background: rgba(0, 0, 0, 0.85) !important;
+}
+
+/* Ячейка имени артиста чуть светлее, чтобы выделялась */
+.table-wrapper tbody tr td.name {
+  background: rgba(0, 0, 0, 0.75) !important;
+  font-weight: 700;
+}
+
+/* Для страницы результатов (если используется свой ID таблицы) */
+#results tbody tr td {
+  background:linear-gradient(135deg,#ff0099,#00c3ff); !important;
+  color: #fff !important;
+}
+
+#results tbody tr:hover td {
+  background:linear-gradient(135deg,#ff0099,#00c3ff); !important;
+}
+
+/* ─── HEADER: выравниваем кнопки вправо ─── */
+header {
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+  background:linear-gradient(135deg,#ff0099,#00c3ff);
+  backdrop-filter: blur(4px);
+}
+
+/* Логотип/заголовок слева */
+header .logo a {
+  color: #ffe4ff;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Навигация справа */
+header nav {
+  margin-left: auto;
+  display: flex;
+  gap: 12px;
+}
+
+/* Общий класс для кнопок в header */
+header .header-btn {
+  padding: 8px 14px;
+  background: linear-gradient(135deg, #ff0099, #00c3ff);
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: opacity .25s, transform .2s;
+}
+header .header-btn:hover {
+  opacity: .85;
+  transform: translateY(-1px);
+}
+header .header-btn:active {
+  transform: translateY(0);
+}

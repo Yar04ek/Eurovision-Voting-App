@@ -1,0 +1,184 @@
+[
+  {
+    "id": 6,
+    "name": "🇸🇪 KAJ - Bara Bada Bastu",
+    "semi_final": 1,
+    "performance_order": 6,
+    "official_final": true
+  },
+  {
+    "id": 12,
+    "name": "🇦🇱 Shkodra Elektronike - Zjerm",
+    "semi_final": 1,
+    "performance_order": 12,
+    "official_final": true
+  },
+  {
+    "id": 1,
+    "name": "🇮🇸 Væb - Róa",
+    "semi_final": 1,
+    "performance_order": 1,
+    "official_final": true
+  },
+  {
+    "id": 8,
+    "name": "🇳🇴 Kyle Alessandro - Lighter",
+    "semi_final": 1,
+    "performance_order": 8,
+    "official_final": true
+  },
+  {
+    "id": 13,
+    "name": "🇳🇱 Claude - C'est la vie",
+    "semi_final": 1,
+    "performance_order": 13,
+    "official_final": true
+  },
+  {
+    "id": 2,
+    "name": "🇵🇱 Justyna Steczkowska - Gaja",
+    "semi_final": 1,
+    "performance_order": 2,
+    "official_final": true
+  },
+  {
+    "id": 11,
+    "name": "🇸🇲 Gabry Ponte - Tutta l'Italia",
+    "semi_final": 1,
+    "performance_order": 11,
+    "official_final": true
+  },
+  {
+    "id": 4,
+    "name": "🇪🇪 Tommy Cash - Espresso Macchiato",
+    "semi_final": 1,
+    "performance_order": 4,
+    "official_final": true
+  },
+  {
+    "id": 7,
+    "name": "🇵🇹 Napa - Deslocado",
+    "semi_final": 1,
+    "performance_order": 7,
+    "official_final": true
+  },
+  {
+    "id": 5,
+    "name": "🇺🇦 Ziferblat - Bird of Pray",
+    "semi_final": 1,
+    "performance_order": 5,
+    "official_final": true
+  },
+  {
+    "id": 37,
+    "name": "🇬🇧 Remember Monday - What the Hell Just Happened?",
+    "semi_final": 0,
+    "performance_order": null,
+    "official_final": true
+  },
+  {
+    "id": 38,
+    "name": "🇩🇪 Abor & Tynna - Baller",
+    "semi_final": 0,
+    "performance_order": null,
+    "official_final": true
+  },
+  {
+    "id": 39,
+    "name": "🇪🇸 Melody - Esa Diva",
+    "semi_final": 0,
+    "performance_order": null,
+    "official_final": true
+  },
+  {
+    "id": 40,
+    "name": "🇮🇹 Lucio Corsi - Volevo essere un duro",
+    "semi_final": 0,
+    "performance_order": null,
+    "official_final": true
+  },
+  {
+    "id": 41,
+    "name": "🇫🇷 Louane - Maman",
+    "semi_final": 0,
+    "performance_order": null,
+    "official_final": true
+  },
+  {
+    "id": 42,
+    "name": "🇨🇭 Zoë Më - Voyage",
+    "semi_final": 0,
+    "performance_order": null,
+    "official_final": true
+  },
+  {
+    "id": 28,
+    "name": "🇱🇹 Katarsis - Tavo akys",
+    "semi_final": 2,
+    "performance_order": 8,
+    "official_final": true
+  },
+  {
+    "id": 34,
+    "name": "🇮🇱 Yuval Raphael - New Day Will Rise",
+    "semi_final": 2,
+    "performance_order": 14,
+    "official_final": true
+  },
+  {
+    "id": 25,
+    "name": "🇦🇲 Parg - Survivor",
+    "semi_final": 2,
+    "performance_order": 5,
+    "official_final": true
+  },
+  {
+    "id": 31,
+    "name": "🇩🇰 Sissal - Hallucination",
+    "semi_final": 2,
+    "performance_order": 11,
+    "official_final": true
+  },
+  {
+    "id": 26,
+    "name": "🇦🇹 JJ - Wasted Love",
+    "semi_final": 2,
+    "performance_order": 6,
+    "official_final": true
+  },
+  {
+    "id": 33,
+    "name": "🇱🇺 Laura Thorn - La poupée monte le son",
+    "semi_final": 2,
+    "performance_order": 13,
+    "official_final": true
+  },
+  {
+    "id": 36,
+    "name": "🇫🇮 Erika Vikman - Ich komme",
+    "semi_final": 2,
+    "performance_order": 16,
+    "official_final": true
+  },
+  {
+    "id": 24,
+    "name": "🇱🇻 Tautumeitas - Bur man laimi",
+    "semi_final": 2,
+    "performance_order": 4,
+    "official_final": true
+  },
+  {
+    "id": 29,
+    "name": "🇲🇹 Miriana Conte - Serving",
+    "semi_final": 2,
+    "performance_order": 9,
+    "official_final": true
+  },
+  {
+    "id": 27,
+    "name": "🇬🇷 Klavdia - Asteromáta",
+    "semi_final": 2,
+    "performance_order": 7,
+    "official_final": true
+  }
+]

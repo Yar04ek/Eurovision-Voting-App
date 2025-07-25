@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}Eurovision 2025{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v=5">
+</head>
+<body>
+  {% block content %}{% endblock %}
+  <script src="{{ url_for('static', filename='js/main.js') }}?v=5"></script>
+</body>
+</html>

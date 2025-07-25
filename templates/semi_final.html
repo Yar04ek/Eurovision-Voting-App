@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Полуфинал {{ semi }}</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}?v=5">
+  </head>
+  <body>
+    {% include '_header.html' %}
+    <main>
+      <h1>Полуфинал {{ semi }}</h1>
+      <table id="artists-table" data-semi="{{ semi }}">
+        <thead>
+          <tr>
+            <th>#</th><th>Исполнитель</th><th>Оценка</th><th>В финал</th>
+            <th>Админ</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </main>
+    <script src="{{ url_for('static', filename='js/main.js') }}?v=5"></script>
+  </body>
+</html>
